@@ -22,8 +22,8 @@ RUN chsh -s '/bin/bash'
 
 RUN sed -ri 's/exec/\/usr\/local\/sbin\/oc-fetch-ssh-keys &\n\/usr\/local\/sbin\/oc-generate-ssh-keys &\nwait `jobs -p` || true\nexec/g' /etc/sv/sshd/run
 
-# Change root password
-RUN sed -i -e "s/^root:[^:]\+:/root:$(< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo;):/" /etc/shadow
+# Delete the root password
+RUN passwd -d root
 
 # Cleaning
 RUN rm -fr /var/cache/xbps/*
