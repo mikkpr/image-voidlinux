@@ -7,8 +7,9 @@ DESCRIPTION =		Void Linux
 SOURCE_URL =		https://github.com/scaleway/image-voidlinux
 SHELL =			/bin/bash
 
-
-all: help
+IMAGE_VOLUME_SIZE =	50G
+IMAGE_BOOTSCRIPT =	stable
+IMAGE_NAME =		Void Linux
 
 
 ##
