@@ -1,5 +1,4 @@
-DOCKER_NAMESPACE =	armbuild/
-NAME =			scw-distrib-voidlinux
+NAME =			voidlinux
 VERSION =		latest
 VERSION_ALIASES =	rpi2-20150713 rpi2
 TITLE =			Void Linux

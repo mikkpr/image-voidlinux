@@ -1,4 +1,4 @@
-## -*- docker-image-name: "armbuild/scw-distrib-voidlinux:latest" -*-
+## -*- docker-image-name: "scaleway/voidlinux:latest" -*-
 FROM armbuild/voidlinux:rpi2-20150713
 MAINTAINER Scaleway <opensource@scaleway.com> (@scaleway)
 
