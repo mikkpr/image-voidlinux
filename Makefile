@@ -1,6 +1,6 @@
 NAME =			voidlinux
 VERSION =		latest
-VERSION_ALIASES =	rpi2-20150713 rpi2
+VERSION_ALIASES =
 TITLE =			Void Linux
 DESCRIPTION =		Void Linux
 SOURCE_URL =		https://github.com/scaleway/image-voidlinux
