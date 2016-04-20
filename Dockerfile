@@ -1,5 +1,5 @@
 ## -*- docker-image-name: "scaleway/voidlinux:latest" -*-
-FROM multiarch/voidlinux:x86_64-latest
+FROM multiarch/voidlinux:amd64-latest
 # following 'FROM' lines are used dynamically thanks do the image-builder
 # which dynamically update the Dockerfile if needed.
 #FROM multiarch/voidlinux:armhf-latest   # arch=armv7l
